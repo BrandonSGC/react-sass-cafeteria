@@ -2,7 +2,19 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
 export const Home = () => {
-  
+  // Array con las rutas de las imágenes
+  const imagenes = [...Array(10)].map((_, index) => {
+    const imagenSrc =
+      index + 1 < 10
+        ? `/images/galeria/galeria_0${index + 1}.jpg`
+        : `/images/galeria/galeria_${index + 1}.jpg`;
+
+    return (
+      <div className="imagen" key={index + 1}>
+        <img src={imagenSrc} alt={`Imagen ${index + 1}`} />
+      </div>
+    );
+  });
 
   return (
     <>
@@ -87,6 +99,14 @@ export const Home = () => {
               <p>Té</p>
             </li>
           </ul>
+        </section>
+
+        <section className="experiencia">
+          <h2>
+            <span>Vive la </span>experiencia
+          </h2>
+
+          <div className="galeria">{imagenes}</div>
         </section>
       </main>
     </>
