@@ -1,8 +1,8 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import { MenuItem } from "../components/MenuItem";
 
 export const Home = () => {
-  // Array con las rutas de las imágenes
   const imagenes = [...Array(10)].map((_, index) => {
     const imagenSrc =
       index + 1 < 10
@@ -15,6 +15,72 @@ export const Home = () => {
       </div>
     );
   });
+
+  const coffees = [
+    {
+      name: "Café Latte",
+      description: "Café Espresso con leche caliente evaporada",
+      price: "$25",
+    },
+    {
+      name: "Café Mocha",
+      description: "Espresso con crema batida",
+      price: "$30",
+    },
+    {
+      name: "Café Americano",
+      description: "Café Negro",
+      price: "$30",
+    },
+    {
+      name: "Café Mocha Frio",
+      description: "Espresso con una capa suave de espuma",
+      price: "$29",
+    },
+    {
+      name: "Mocha Frio Quemado",
+      description: "Espresso, hielo, con azucar quemada y mantequilla.",
+      price: "$35",
+    },
+    {
+      name: "Latte con Caramelo",
+      description: "Espresso, leche y caramelo.",
+      price: "$39",
+    },
+  ];
+
+  const comidas = [
+    {
+      name: "Baguette de Pollo",
+      description: "Delicioso Baguette con pollo a la plancha.",
+      price: "$50",
+    },
+    {
+      name: "Baguette Pollo y Queso",
+      description: "Baguette combinado con Pollo y Queso Manchego.",
+      price: "$50",
+    },
+    {
+      name: "Baguette con Tocino",
+      description: "Delicioso sandwich con Pollo y especies.",
+      price: "$69",
+    },
+    {
+      name: "Baguette con Jamón, Queso y Tocino",
+      description: "Espresso con una capa suave de espuma.",
+      price: "$65",
+    },
+    {
+      name: "Sandwich de Jamón y queso",
+      description: "Queso Amarillo con Jamón y Queso.",
+      price: "$59",
+    },
+    {
+      name: "Sandwich del pueblo",
+      description: "Pan con queso, mortadela y salsa de tomate.",
+      price: "$59",
+    },
+  ];
 
   return (
     <>
@@ -109,6 +175,32 @@ export const Home = () => {
           <div className="galeria">{imagenes}</div>
         </section>
       </main>
+
+      <section className="nuestro-menu">
+        <h2 className="heading-blanco">
+          <span>Nuestro delicioso</span> Menú
+        </h2>
+
+        <div className="contenedor grid-menu">
+          <section className="menu cafe">
+            <h3>Café</h3>
+            <ul>
+              {coffees.map((coffee, i) => (
+                <MenuItem key={i} item={{ ...coffee }} />
+              ))}
+            </ul>
+          </section>
+
+          <section className="menu comida">
+            <h3>Comida</h3>
+            <ul>
+              {comidas.map((comida, i) => (
+                <MenuItem key={i} item={{ ...comida }} />
+              ))}
+            </ul>
+          </section>
+        </div>
+      </section>
     </>
   );
 };
