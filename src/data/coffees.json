@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Café Latte",
+    "description": "Café Espresso con leche caliente evaporada",
+    "price": "$25"
+  },
+  {
+    "name": "Café Mocha",
+    "description": "Espresso con crema batida",
+    "price": "$30"
+  },
+  {
+    "name": "Café Americano",
+    "description": "Café Negro",
+    "price": "$30"
+  },
+  {
+    "name": "Café Mocha Frio",
+    "description": "Espresso con una capa suave de espuma",
+    "price": "$29"
+  },
+  {
+    "name": "Mocha Frio Quemado",
+    "description": "Espresso, hielo, con azucar quemada y mantequilla.",
+    "price": "$35"
+  },
+  {
+    "name": "Latte con Caramelo",
+    "description": "Espresso, leche y caramelo.",
+    "price": "$39"
+  }
+]

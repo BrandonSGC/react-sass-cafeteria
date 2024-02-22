@@ -1,0 +1,32 @@
+[
+  {
+      "name": "Baguette de Pollo",
+      "description": "Delicioso Baguette con pollo a la plancha.",
+      "price": "$50"
+  },
+  {
+      "name": "Baguette Pollo y Queso",
+      "description": "Baguette combinado con Pollo y Queso Manchego.",
+      "price": "$50"
+  },
+  {
+      "name": "Baguette con Tocino",
+      "description": "Delicioso sandwich con Pollo y especies.",
+      "price": "$69"
+  },
+  {
+      "name": "Baguette con Jamón, Queso y Tocino",
+      "description": "Espresso con una capa suave de espuma.",
+      "price": "$65"
+  },
+  {
+      "name": "Sandwich de Jamón y queso",
+      "description": "Queso Amarillo con Jamón y Queso.",
+      "price": "$59"
+  },
+  {
+      "name": "Sandwich del pueblo",
+      "description": "Pan con queso, mortadela y salsa de tomate.",
+      "price": "$59"
+  }
+]
