@@ -201,6 +201,46 @@ export const Home = () => {
           </section>
         </div>
       </section>
+
+      <section className="nuestros-testimoniales contenedor">
+        <h2>
+          Nuestros Clientes <span>Lo que dicen nuestros clientes</span>
+        </h2>
+        <div className="testimonial">
+          <p>
+            En Miyodito, encontré la perfección en cada sorbo. Tiene un sabor
+            excepcional que conquistó mi paladar. Desde el primer hasta el
+            último sorbo, Miyodito superó mis expectativas. ¡Un lugar donde la
+            calidad del café se fusiona con el arte de brindar una experiencia
+            única!
+          </p>
+          <p className="autor">- Brandon Gómez</p>
+        </div>
+      </section>
+
+      <footer className="footer">
+        <div className="contenedor footer-contenedor">
+          <div className="footer-box ubicacion">
+            <h3>Ubicación</h3>
+            <p>Nicolás Copérnico 5990</p>
+            <p>San José, Alajuelita</p>
+          </div>
+
+          <div className="footer-box reservacion">
+            <h3>Reservación</h3>
+            <p>Tel. 70428451</p>
+            <a href="tel:70428451">Llamar</a>
+          </div>
+
+          <div className="footer-box horario">
+            <h3>Horario</h3>
+            <p>Lun-Jue: 11:00 - 22:00</p>
+            <p>Vie-Sab: 09:00 - 24:00</p>
+            <p>Domingo: Cerrado</p>
+          </div>
+        </div>
+        <p className="copyright">Todos los derechos reservados. La Cafetería</p>
+      </footer>
     </>
   );
 };
