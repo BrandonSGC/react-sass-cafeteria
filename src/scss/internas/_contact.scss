@@ -4,7 +4,7 @@
 .contenido-contacto {
   @include m.tablet { 
     @include m.grid(2, 5rem);
-    background-image: url('/public/images/granos_cafe.jpg');
+    background-image: url('/images/granos_cafe.jpg');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 40%;

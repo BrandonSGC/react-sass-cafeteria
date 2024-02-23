@@ -5,7 +5,7 @@ import { Contact, GaleryPage, Home, MenuPage, Process, Us } from '../pages/'
 export const AppRouter = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />}/>
+      <Route path="/home" element={<Home />}/>
       <Route path="/us" element={<Us />}/>
       <Route path="/process" element={<Process />}/>
       <Route path="/galery" element={<GaleryPage />}/>

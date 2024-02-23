@@ -5,14 +5,14 @@ export const Header = ({page = '', title}) => {
     <header className={`header header-${page}`}>
       <div className="contenido-header contenedor">
         <div className="barra">
-          <Link to="/" className="logo">
+          <Link to="/home" className="logo">
             <img src="/images/logo.svg" alt="Logo" />
           </Link>
 
           <nav className="nav-principal">
             <NavLink
               className={({ isActive }) => `${isActive && "activo"}`}
-              to="/"
+              to="/home"
             >
               Inicio
             </NavLink>
