@@ -53,9 +53,9 @@ export const Home = () => {
         </h2>
         <div className="testimonial">
           <p>
-            En Miyodito, encontré la perfección en cada sorbo. Tiene un sabor
+            En La Cafetería, encontré la perfección en cada sorbo. Tiene un sabor
             excepcional que conquistó mi paladar. Desde el primer hasta el
-            último sorbo, Miyodito superó mis expectativas. ¡Un lugar donde la
+            último sorbo, La Cafetería superó mis expectativas. ¡Un lugar donde la
             calidad del café se fusiona con el arte de brindar una experiencia
             única!
           </p>

@@ -36,13 +36,13 @@ export const Header = ({page = '', title}) => {
             </NavLink>
             <NavLink
               className={({ isActive }) => `${isActive && "activo"}`}
-              to="/galeria"
+              to="/galery"
             >
               Galería
             </NavLink>
             <NavLink
               className={({ isActive }) => `${isActive && "activo"}`}
-              to="/contacto"
+              to="/contact"
             >
               Contacto
             </NavLink>

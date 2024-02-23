@@ -21,7 +21,7 @@ export const MenuPage = () => {
             </p>
           </div>
           <div className="imagen">
-            <img src="/public/images/galeria/galeria_09.jpg" alt="cafe" />
+            <img src="/images/galeria/galeria_09.jpg" alt="cafe" />
           </div>
         </div>
       </main>

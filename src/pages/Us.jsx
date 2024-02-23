@@ -16,14 +16,14 @@ export const Us = () => {
           </div>
           <div className="texto">
             <p>
-              Bienvenido a Miyodito, tu refugio acogedor para los amantes del
+              Bienvenido a La Cafetería, tu refugio acogedor para los amantes del
               buen café y los momentos deliciosos. Sumérgete en un ambiente
               donde la elegancia se combina con la calidez, creando el espacio
               perfecto para disfrutar de momentos inolvidables.
             </p>
             <blockquote>Excelente Sabor!</blockquote>
             <p>
-              En Miyodito, cada taza es una obra maestra cuidadosamente
+              En La Cafetería, cada taza es una obra maestra cuidadosamente
               elaborada, donde el arte del café se fusiona con la pasión por la
               calidad. Nuestros granos cuidadosamente seleccionados y tostados a
               la perfección te ofrecen una experiencia única en cada sorbo.
